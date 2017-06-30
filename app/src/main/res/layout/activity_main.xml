@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/load_patch"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#00ffa6"
+        android:onClick="click"
+        android:text="load patch" />
+
+    <Button
+        android:id="@+id/clear_patch"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#00abee"
+        android:onClick="click"
+        android:text="clear_patch" />
+
+    <Button
+        android:id="@+id/kill"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#00ff95"
+        android:onClick="click"
+        android:text="kill process" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
